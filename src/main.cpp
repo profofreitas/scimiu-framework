@@ -8,7 +8,6 @@ int main(int argc, char *argv[]) {
 	SimulationDispatcher sd;
 
 	sd.dispatch(s);
-	
 	// @todo list
 	// #1. Add prototype pattern to Simulations
 	// #2. Test simple simulation.
