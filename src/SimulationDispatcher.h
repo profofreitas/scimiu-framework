@@ -6,13 +6,17 @@
 using std::cout;
 using std::endl;
 
-
 class SimulationDispatcher
 {
     public:
         static void dispatch(Simulation simulation){
             simulation.run();
         }
+
+        void plot();
+    
+    private:
+        
 };
 
 #endif // !SIMULATIONDISPATCHER_H

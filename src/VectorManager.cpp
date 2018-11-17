@@ -1,5 +1,9 @@
 #include "VectorManager.h"
 
+VectorManager::VectorManager(){
+
+}
+
 Vector VectorManager::sum(Vector u, Vector w)
 {
     double x = u.getX() + w.getX();
@@ -7,6 +11,6 @@ Vector VectorManager::sum(Vector u, Vector w)
     double z = u.getZ() + w.getZ();
 
     Vector v(x, y, z);
-    
+
     return v;
 }

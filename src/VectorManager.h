@@ -6,6 +6,7 @@
 class VectorManager
 {
     public:
+        VectorManager();
         Vector sum(Vector, Vector);
 };
 
