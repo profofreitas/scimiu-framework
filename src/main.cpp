@@ -1,8 +1,14 @@
 #include <iostream>
+#include "Simulation.h"
+#include "SimulationDispatcher.h"
 
 int main(int argc, char *argv[]) {
-	std::cout << "Hello Easy C++ project!" << std::endl;
 
+	Simulation s;
+	SimulationDispatcher sd;
+
+	sd.dispatch(s);
+	
 	// @todo list
 	// #1. Add prototype pattern to Simulations
 	// #2. Test simple simulation.
